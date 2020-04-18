@@ -54,6 +54,12 @@ public class player : MonoBehaviour
     public Collider2D triggerCollider;
     public SpriteRenderer mySprite;
 
+    [Header("Damage Screen")]
+    public Color damageColor;
+    public Image damageImage;
+    float colorSmoothing = 2f;
+    bool isTalkingDamage = false;
+
 
     public void Start()
     {
@@ -109,6 +115,16 @@ public class player : MonoBehaviour
             health = 314;
             PercentageMat.SetFloat("_Percentage", health / maxHealth);
         }
+
+        if (isTalkingDamage)
+        {
+            damageImage.color = damageColor;
+        }
+        else
+        {
+            damageImage.color = Color.Lerp(damageImage.color, Color.clear, colorSmoothing * Time.deltaTime);
+        }
+        isTalkingDamage = false;
     }
 
     private void FixedUpdate()
@@ -125,6 +141,7 @@ public class player : MonoBehaviour
             Debug.Log("Floor");
             MotionAnimator.SetBool("OnFloor", FloorCheck);
         }
+
         if (other.gameObject.tag == "monster")
         {
             print(other.gameObject.name);
@@ -132,8 +149,12 @@ public class player : MonoBehaviour
             Vector2 difference = transform.position - other.transform.position;
             transform.position = new Vector2(transform.position.x + difference.x, transform.position.y + difference.y);
             StartCoroutine(FlashCollider());
+            isTalkingDamage = true;
+            
+            
         }
-        if(other.gameObject.tag == "Trampoline")
+
+        if (other.gameObject.tag == "Trampoline")
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 25f);
         }
