@@ -1,0 +1,2884 @@
+fileFormatVersion: 2
+guid: 5cf1b4629c7cb104e98d369448084abd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: PackSea01_0
+  - first:
+      213: 21300002
+    second: PackSea01_1
+  - first:
+      213: 21300004
+    second: PackSea01_2
+  - first:
+      213: 21300006
+    second: PackSea01_3
+  - first:
+      213: 21300008
+    second: PackSea01_4
+  - first:
+      213: 21300010
+    second: PackSea01_5
+  - first:
+      213: 21300012
+    second: PackSea01_6
+  - first:
+      213: 21300014
+    second: PackSea01_7
+  - first:
+      213: 21300016
+    second: PackSea01_8
+  - first:
+      213: 21300018
+    second: PackSea01_9
+  - first:
+      213: 21300020
+    second: PackSea01_10
+  - first:
+      213: 21300022
+    second: PackSea01_11
+  - first:
+      213: 21300024
+    second: PackSea01_12
+  - first:
+      213: 21300026
+    second: PackSea01_13
+  - first:
+      213: 21300028
+    second: PackSea01_14
+  - first:
+      213: 21300030
+    second: PackSea01_15
+  - first:
+      213: 21300032
+    second: PackSea01_16
+  - first:
+      213: 21300034
+    second: PackSea01_17
+  - first:
+      213: 21300036
+    second: PackSea01_18
+  - first:
+      213: 21300038
+    second: PackSea01_19
+  - first:
+      213: 21300040
+    second: PackSea01_20
+  - first:
+      213: 21300042
+    second: PackSea01_21
+  - first:
+      213: 21300044
+    second: PackSea01_22
+  - first:
+      213: 21300046
+    second: PackSea01_23
+  - first:
+      213: 21300048
+    second: PackSea01_24
+  - first:
+      213: 21300050
+    second: PackSea01_25
+  - first:
+      213: 21300052
+    second: PackSea01_26
+  - first:
+      213: 21300054
+    second: PackSea01_27
+  - first:
+      213: 21300056
+    second: PackSea01_28
+  - first:
+      213: 21300058
+    second: PackSea01_29
+  - first:
+      213: 21300060
+    second: PackSea01_30
+  - first:
+      213: 21300062
+    second: PackSea01_31
+  - first:
+      213: 21300064
+    second: PackSea01_32
+  - first:
+      213: 21300066
+    second: PackSea01_33
+  - first:
+      213: 21300068
+    second: PackSea01_34
+  - first:
+      213: 21300070
+    second: PackSea01_35
+  - first:
+      213: 21300072
+    second: PackSea01_36
+  - first:
+      213: 21300074
+    second: PackSea01_37
+  - first:
+      213: 21300076
+    second: PackSea01_38
+  - first:
+      213: 21300078
+    second: PackSea01_39
+  - first:
+      213: 21300080
+    second: PackSea01_40
+  - first:
+      213: 21300082
+    second: PackSea01_41
+  - first:
+      213: 21300084
+    second: PackSea01_42
+  - first:
+      213: 21300086
+    second: PackSea01_43
+  - first:
+      213: 21300088
+    second: PackSea01_44
+  - first:
+      213: 21300090
+    second: PackSea01_45
+  - first:
+      213: 21300092
+    second: PackSea01_46
+  - first:
+      213: 21300094
+    second: PackSea01_47
+  - first:
+      213: 21300096
+    second: PackSea01_48
+  - first:
+      213: 21300098
+    second: PackSea01_49
+  - first:
+      213: 21300100
+    second: PackSea01_50
+  - first:
+      213: 21300102
+    second: PackSea01_51
+  - first:
+      213: 21300104
+    second: PackSea01_52
+  - first:
+      213: 21300106
+    second: PackSea01_53
+  - first:
+      213: 21300108
+    second: PackSea01_54
+  - first:
+      213: 21300110
+    second: PackSea01_55
+  - first:
+      213: 21300112
+    second: PackSea01_56
+  - first:
+      213: 21300114
+    second: PackSea01_57
+  - first:
+      213: 21300116
+    second: PackSea01_58
+  - first:
+      213: 21300118
+    second: PackSea01_59
+  - first:
+      213: 21300120
+    second: PackSea01_60
+  - first:
+      213: 21300122
+    second: PackSea01_61
+  - first:
+      213: 21300124
+    second: PackSea01_62
+  - first:
+      213: 21300126
+    second: PackSea01_63
+  - first:
+      213: 21300128
+    second: PackSea01_64
+  - first:
+      213: 21300130
+    second: PackSea01_65
+  - first:
+      213: 21300132
+    second: PackSea01_66
+  - first:
+      213: 21300134
+    second: PackSea01_67
+  - first:
+      213: 21300136
+    second: PackSea01_68
+  - first:
+      213: 21300138
+    second: PackSea01_69
+  - first:
+      213: 21300140
+    second: PackSea01_70
+  - first:
+      213: 21300142
+    second: PackSea01_71
+  - first:
+      213: 21300144
+    second: PackSea01_72
+  - first:
+      213: 21300146
+    second: PackSea01_73
+  - first:
+      213: 21300148
+    second: PackSea01_74
+  - first:
+      213: 21300150
+    second: PackSea01_75
+  - first:
+      213: 21300152
+    second: PackSea01_76
+  - first:
+      213: 21300154
+    second: PackSea01_77
+  - first:
+      213: 21300156
+    second: PackSea01_78
+  - first:
+      213: 21300158
+    second: PackSea01_79
+  - first:
+      213: 21300160
+    second: PackSea01_80
+  - first:
+      213: 21300162
+    second: PackSea01_81
+  - first:
+      213: 21300164
+    second: PackSea01_82
+  - first:
+      213: 21300166
+    second: PackSea01_83
+  - first:
+      213: 21300168
+    second: PackSea01_84
+  - first:
+      213: 21300170
+    second: PackSea01_85
+  - first:
+      213: 21300172
+    second: PackSea01_86
+  - first:
+      213: 21300174
+    second: PackSea01_87
+  - first:
+      213: 21300176
+    second: PackSea01_88
+  - first:
+      213: 21300178
+    second: PackSea01_89
+  - first:
+      213: 21300180
+    second: PackSea01_90
+  - first:
+      213: -6276725823497556252
+    second: PackSea01_0
+  - first:
+      213: -6752028893194703041
+    second: PackSea01_1
+  - first:
+      213: 7427062692385880085
+    second: PackSea01_2
+  - first:
+      213: 5522504540859045000
+    second: PackSea01_3
+  - first:
+      213: 4762573092395957252
+    second: PackSea01_4
+  - first:
+      213: 8151057975946992987
+    second: PackSea01_5
+  - first:
+      213: 4265650031385600982
+    second: PackSea01_6
+  - first:
+      213: -1883664428736496033
+    second: PackSea01_7
+  - first:
+      213: 6245094152307164459
+    second: PackSea01_8
+  - first:
+      213: 4285787611154283391
+    second: PackSea01_9
+  - first:
+      213: -6981640965689903470
+    second: PackSea01_10
+  - first:
+      213: 6219177645463001646
+    second: PackSea01_11
+  - first:
+      213: -4158453085742485994
+    second: PackSea01_12
+  - first:
+      213: 6202043729753526597
+    second: PackSea01_13
+  - first:
+      213: -7317548422723290843
+    second: PackSea01_14
+  - first:
+      213: 6988069087878029328
+    second: PackSea01_15
+  - first:
+      213: 6433398125538196772
+    second: PackSea01_16
+  - first:
+      213: 4624364174821554025
+    second: PackSea01_17
+  - first:
+      213: -5602484409326557292
+    second: PackSea01_18
+  - first:
+      213: -2934139383059896082
+    second: PackSea01_19
+  - first:
+      213: -3866150351309584224
+    second: PackSea01_20
+  - first:
+      213: -5312502641027161591
+    second: PackSea01_21
+  - first:
+      213: 8189311621776549982
+    second: PackSea01_22
+  - first:
+      213: -7743955031253689768
+    second: PackSea01_23
+  - first:
+      213: -228973284704553795
+    second: PackSea01_24
+  - first:
+      213: 5321820151418194570
+    second: PackSea01_25
+  - first:
+      213: 2755345261239154281
+    second: PackSea01_26
+  - first:
+      213: 5184599160390546795
+    second: PackSea01_27
+  - first:
+      213: 520374904876463475
+    second: PackSea01_28
+  - first:
+      213: 268641630222691643
+    second: PackSea01_29
+  - first:
+      213: -6673033436555106833
+    second: PackSea01_30
+  - first:
+      213: 3310956086890853491
+    second: PackSea01_31
+  - first:
+      213: 7016388544007020871
+    second: PackSea01_32
+  - first:
+      213: 3617639755475797384
+    second: PackSea01_33
+  - first:
+      213: -626938449343940824
+    second: PackSea01_34
+  - first:
+      213: 6840765925057949704
+    second: PackSea01_35
+  - first:
+      213: 2490909563188120193
+    second: PackSea01_36
+  - first:
+      213: -5548563976142923358
+    second: PackSea01_37
+  - first:
+      213: -2106012568877603743
+    second: PackSea01_38
+  - first:
+      213: -530315081160740749
+    second: PackSea01_39
+  - first:
+      213: -1337307305264632251
+    second: PackSea01_40
+  - first:
+      213: -1619728378248103681
+    second: PackSea01_41
+  - first:
+      213: -2413000790430994361
+    second: PackSea01_42
+  - first:
+      213: 1172825971905193966
+    second: PackSea01_43
+  - first:
+      213: 6761953231782184735
+    second: PackSea01_44
+  - first:
+      213: -709714328297261059
+    second: PackSea01_45
+  - first:
+      213: 1403157403581894703
+    second: PackSea01_46
+  - first:
+      213: 7286123237229789759
+    second: PackSea01_47
+  - first:
+      213: 6923068282791889972
+    second: PackSea01_48
+  - first:
+      213: -8087920429217335471
+    second: PackSea01_49
+  - first:
+      213: 8788085905060053917
+    second: PackSea01_50
+  - first:
+      213: 1056648031161795127
+    second: PackSea01_51
+  - first:
+      213: 7578524498171420257
+    second: PackSea01_52
+  - first:
+      213: 8746055521107948135
+    second: PackSea01_53
+  - first:
+      213: -1439021697863467952
+    second: PackSea01_54
+  - first:
+      213: -3373047263294057499
+    second: PackSea01_55
+  - first:
+      213: -8478551321326555237
+    second: PackSea01_56
+  - first:
+      213: -9211936684343915266
+    second: PackSea01_57
+  - first:
+      213: -7049328491386065324
+    second: PackSea01_58
+  - first:
+      213: 4439614751305077522
+    second: PackSea01_59
+  - first:
+      213: -2171182638371662218
+    second: PackSea01_60
+  - first:
+      213: 531923170031853499
+    second: PackSea01_61
+  - first:
+      213: 2001187277394154570
+    second: PackSea01_62
+  - first:
+      213: 1176110543308034068
+    second: PackSea01_63
+  - first:
+      213: 8383292753305488392
+    second: PackSea01_64
+  - first:
+      213: -9055393876454999758
+    second: PackSea01_65
+  - first:
+      213: -2284731992221620697
+    second: PackSea01_66
+  - first:
+      213: -7745252107911867848
+    second: PackSea01_67
+  - first:
+      213: -4183524270011466360
+    second: PackSea01_68
+  - first:
+      213: -6107229164750461807
+    second: PackSea01_69
+  - first:
+      213: -7445027416605686935
+    second: PackSea01_70
+  - first:
+      213: 6371243260035417547
+    second: PackSea01_71
+  - first:
+      213: 9026368412136616531
+    second: PackSea01_72
+  - first:
+      213: -7237315102520228216
+    second: PackSea01_73
+  - first:
+      213: 750611260002791171
+    second: PackSea01_74
+  - first:
+      213: 2562316083300061137
+    second: PackSea01_75
+  - first:
+      213: -8292990029378103344
+    second: PackSea01_76
+  - first:
+      213: 672759638150248395
+    second: PackSea01_77
+  - first:
+      213: 8053218664466179886
+    second: PackSea01_78
+  - first:
+      213: 134488679315309448
+    second: PackSea01_79
+  - first:
+      213: -7947762644332471039
+    second: PackSea01_80
+  - first:
+      213: 5244521070082958500
+    second: PackSea01_81
+  - first:
+      213: -2620904390039241476
+    second: PackSea01_82
+  - first:
+      213: -4363347426870755872
+    second: PackSea01_83
+  - first:
+      213: -3567559376039342344
+    second: PackSea01_84
+  - first:
+      213: -6921866873960214452
+    second: PackSea01_85
+  - first:
+      213: -8963916285781320257
+    second: PackSea01_86
+  - first:
+      213: -8856691288957353560
+    second: PackSea01_87
+  - first:
+      213: -568982042117178901
+    second: PackSea01_88
+  - first:
+      213: -6776914579087851166
+    second: PackSea01_89
+  - first:
+      213: -3764004900702383988
+    second: PackSea01_90
+  - first:
+      213: 2841569321952199342
+    second: PackSea01_91
+  - first:
+      213: -6662513299952039882
+    second: PackSea01_92
+  - first:
+      213: 7921100979854285507
+    second: PackSea01_93
+  - first:
+      213: -6300488341496641278
+    second: PackSea01_94
+  - first:
+      213: 6808963482594065753
+    second: PackSea01_95
+  - first:
+      213: 4107487467150066787
+    second: PackSea01_96
+  - first:
+      213: 7248797460962655966
+    second: PackSea01_97
+  - first:
+      213: 7641243370293607805
+    second: PackSea01_98
+  - first:
+      213: -2892929076336275213
+    second: PackSea01_99
+  - first:
+      213: 8051449905820605053
+    second: PackSea01_100
+  - first:
+      213: -1740867214909825301
+    second: PackSea01_101
+  - first:
+      213: -1287557079323986920
+    second: PackSea01_102
+  - first:
+      213: 6041629625450223899
+    second: PackSea01_103
+  - first:
+      213: 474664374187998638
+    second: PackSea01_104
+  - first:
+      213: -1867622623035241651
+    second: PackSea01_105
+  - first:
+      213: -8340926302304034834
+    second: PackSea01_106
+  - first:
+      213: -6776979341263370633
+    second: PackSea01_107
+  - first:
+      213: 3250321135264553436
+    second: PackSea01_108
+  - first:
+      213: -7467374159673982102
+    second: PackSea01_109
+  - first:
+      213: 1106576904653186285
+    second: PackSea01_110
+  - first:
+      213: -505307533214293455
+    second: PackSea01_111
+  - first:
+      213: -7144058356443769470
+    second: PackSea01_112
+  - first:
+      213: -6452149755575295319
+    second: PackSea01_113
+  - first:
+      213: -7084125576383015377
+    second: PackSea01_114
+  - first:
+      213: -5150159627584533899
+    second: PackSea01_115
+  - first:
+      213: -1731125885986190565
+    second: PackSea01_116
+  - first:
+      213: -5417175455205333398
+    second: PackSea01_117
+  - first:
+      213: -2219981869341794730
+    second: PackSea01_118
+  - first:
+      213: -1859209346474607906
+    second: PackSea01_119
+  - first:
+      213: -5786825095452675012
+    second: PackSea01_120
+  - first:
+      213: 6316717986590819710
+    second: PackSea01_121
+  - first:
+      213: 6048523439374467744
+    second: PackSea01_122
+  - first:
+      213: 8015757362493761974
+    second: PackSea01_123
+  - first:
+      213: -203310658512424306
+    second: PackSea01_124
+  - first:
+      213: 4999657101632389899
+    second: PackSea01_125
+  - first:
+      213: 5672530057129230134
+    second: PackSea01_126
+  - first:
+      213: -1516761443888842404
+    second: PackSea01_127
+  - first:
+      213: -7081491645297539385
+    second: PackSea01_128
+  - first:
+      213: -1374161863324073295
+    second: PackSea01_129
+  - first:
+      213: -2540919429126726927
+    second: PackSea01_130
+  - first:
+      213: 3149391084588655480
+    second: PackSea01_131
+  - first:
+      213: 1162670357980372264
+    second: PackSea01_132
+  - first:
+      213: 6450534419147252710
+    second: PackSea01_133
+  - first:
+      213: 393666907179050210
+    second: PackSea01_134
+  - first:
+      213: 8883314252186820468
+    second: PackSea01_135
+  - first:
+      213: -6646791172755143964
+    second: PackSea01_136
+  - first:
+      213: -6554594434669660273
+    second: PackSea01_137
+  - first:
+      213: 9198191024310885675
+    second: PackSea01_138
+  - first:
+      213: -7527335191856775709
+    second: PackSea01_139
+  - first:
+      213: 1454054904979583102
+    second: PackSea01_140
+  - first:
+      213: -70613090233586239
+    second: PackSea01_141
+  - first:
+      213: 1716528420817521673
+    second: PackSea01_142
+  - first:
+      213: 7344032879554928977
+    second: PackSea01_143
+  - first:
+      213: 7176487977977079067
+    second: PackSea01_144
+  - first:
+      213: -6278666015614092778
+    second: PackSea01_145
+  - first:
+      213: -2122002677318000537
+    second: PackSea01_146
+  - first:
+      213: -1538433225554291873
+    second: PackSea01_147
+  - first:
+      213: 8414771374502125556
+    second: PackSea01_148
+  - first:
+      213: 8340122684946095707
+    second: PackSea01_149
+  - first:
+      213: -4464089467857369584
+    second: PackSea01_150
+  - first:
+      213: 1989299426517820258
+    second: PackSea01_151
+  - first:
+      213: -4151552908063804333
+    second: PackSea01_152
+  - first:
+      213: 5178833551585364209
+    second: PackSea01_153
+  - first:
+      213: -2918411859580232914
+    second: PackSea01_154
+  - first:
+      213: 7419579043176683797
+    second: PackSea01_155
+  - first:
+      213: 7611898947760093707
+    second: PackSea01_156
+  - first:
+      213: 3981635098708716466
+    second: PackSea01_157
+  - first:
+      213: -954567919455046302
+    second: PackSea01_158
+  - first:
+      213: 5361216103455903267
+    second: PackSea01_159
+  - first:
+      213: 3318188235642433775
+    second: PackSea01_160
+  - first:
+      213: 8173149165064508335
+    second: PackSea01_161
+  - first:
+      213: -6830906224133821711
+    second: PackSea01_162
+  - first:
+      213: -5774405310450631723
+    second: PackSea01_163
+  - first:
+      213: -5538722234290592081
+    second: PackSea01_164
+  - first:
+      213: -8845707354649657877
+    second: PackSea01_165
+  - first:
+      213: -1063412014234241014
+    second: PackSea01_166
+  - first:
+      213: -4459938110123506070
+    second: PackSea01_167
+  - first:
+      213: 423032157750388913
+    second: PackSea01_168
+  - first:
+      213: -3043661621718424370
+    second: PackSea01_169
+  - first:
+      213: 851105020240918264
+    second: PackSea01_170
+  - first:
+      213: -5167182253541481584
+    second: PackSea01_171
+  - first:
+      213: 1096717593537033349
+    second: PackSea01_172
+  - first:
+      213: -787987784931255328
+    second: PackSea01_173
+  - first:
+      213: 6086978233055165319
+    second: PackSea01_174
+  - first:
+      213: 4007097200222710975
+    second: PackSea01_175
+  - first:
+      213: -8709166404682449471
+    second: PackSea01_176
+  - first:
+      213: -587092516434183216
+    second: PackSea01_177
+  - first:
+      213: -8504405618708050068
+    second: PackSea01_178
+  - first:
+      213: 8674212949472590519
+    second: PackSea01_179
+  - first:
+      213: 4267178088130674206
+    second: PackSea01_180
+  - first:
+      213: -7096966991809171210
+    second: PackSea01_181
+  - first:
+      213: -4218243193850486898
+    second: PackSea01_182
+  - first:
+      213: -7774482858246829006
+    second: PackSea01_183
+  - first:
+      213: 1689268537113874568
+    second: PackSea01_184
+  - first:
+      213: -4983272250616634183
+    second: PackSea01_185
+  - first:
+      213: 5128585264495272659
+    second: PackSea01_186
+  - first:
+      213: 6567122959018916018
+    second: PackSea01_187
+  - first:
+      213: -6766353118927769092
+    second: PackSea01_188
+  - first:
+      213: 2332503819584571005
+    second: PackSea01_189
+  - first:
+      213: 8112974071652480262
+    second: PackSea01_190
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PackSea01_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 862
+        width: 91
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee28e97e1794e8a0800000000000000
+      internalID: -6276725823497556252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 865
+        width: 96
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fa4f3de79fb42a0800000000000000
+      internalID: -6752028893194703041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 865
+        width: 103
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51877302b2a321760800000000000000
+      internalID: 7427062692385880085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_3
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 865
+        width: 89
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8849264de90e3ac40800000000000000
+      internalID: 5522504540859045000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_4
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 865
+        width: 140
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c381d8efe081240800000000000000
+      internalID: 4762573092395957252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_5
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 865
+        width: 161
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d5feffa006e1170800000000000000
+      internalID: 8151057975946992987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_6
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 865
+        width: 91
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d36fd86a12a23b30800000000000000
+      internalID: 4265650031385600982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_7
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 865
+        width: 103
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e3f11ae21ebd5e0800000000000000
+      internalID: -1883664428736496033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_8
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 809
+        width: 97
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2543292b080ba650800000000000000
+      internalID: 6245094152307164459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_9
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 815
+        width: 61
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bfe91102d2a7b30800000000000000
+      internalID: 4285787611154283391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_10
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 781
+        width: 89
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296fcb2388a3c1f90800000000000000
+      internalID: -6981640965689903470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_11
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 798
+        width: 81
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a5fd03e15fe4650800000000000000
+      internalID: 6219177645463001646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_12
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 747
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e213173f43a46c0800000000000000
+      internalID: -4158453085742485994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_13
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 788
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541d56199e5121650800000000000000
+      internalID: 6202043729753526597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 749
+        width: 73
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529bbd4ca78d27a90800000000000000
+      internalID: -7317548422723290843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_15
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 723
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010abd0afcb9af060800000000000000
+      internalID: 6988069087878029328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_16
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 773
+        width: 67
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d3e537285084950800000000000000
+      internalID: 6433398125538196772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 755
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967f74057ba0d2040800000000000000
+      internalID: 4624364174821554025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_18
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 742
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4972d6aec1aff32b0800000000000000
+      internalID: -5602484409326557292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 769
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee82b3fd6c7d747d0800000000000000
+      internalID: -2934139383059896082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 734
+        width: 73
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8c0fd3dbca85ac0800000000000000
+      internalID: -3866150351309584224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 742
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902604daef23646b0800000000000000
+      internalID: -5312502641027161591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_22
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 766
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5828faf78746a170800000000000000
+      internalID: 8189311621776549982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_23
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 722
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a5685ade1f78490800000000000000
+      internalID: -7743955031253689768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_24
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 763
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4712eb20682dcf0800000000000000
+      internalID: -228973284704553795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 751
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a0cc34b37ead940800000000000000
+      internalID: 5321820151418194570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_26
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 754
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96637b9aae3fc3620800000000000000
+      internalID: 2755345261239154281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_27
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 753
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65fdd9977563f740800000000000000
+      internalID: 5184599160390546795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 739
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375703b083eb83700800000000000000
+      internalID: 520374904876463475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_29
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 677
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d2e4da3286ab300800000000000000
+      internalID: 268641630222691643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_30
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 736
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe524d7d17f9463a0800000000000000
+      internalID: -6673033436555106833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_31
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 691
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374fb02d401e2fd20800000000000000
+      internalID: 3310956086890853491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_32
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 709
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741a8a3d4383f5160800000000000000
+      internalID: 7016388544007020871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_33
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 680
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8854776c030743230800000000000000
+      internalID: 3617639755475797384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_34
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 675
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827f1de4dcaac47f0800000000000000
+      internalID: -626938449343940824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_35
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 683
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800fcaa6d584fee50800000000000000
+      internalID: 6840765925057949704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_36
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 711
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a8371ec0d719220800000000000000
+      internalID: 2490909563188120193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_37
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 658
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9d874167a8ff2b0800000000000000
+      internalID: -5548563976142923358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_38
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 658
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164ea8b0ab0f5c2e0800000000000000
+      internalID: -2106012568877603743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_39
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 682
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370b1605e31f3a8f0800000000000000
+      internalID: -530315081160740749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_40
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 671
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54eaa2a571ee07de0800000000000000
+      internalID: -1337307305264632251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_41
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 683
+        width: 66
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8f6e52f919589e0800000000000000
+      internalID: -1619728378248103681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_42
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 658
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740bf93d09c438ed0800000000000000
+      internalID: -2413000790430994361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_43
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 642
+        width: 62
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7e2cee107b64010800000000000000
+      internalID: 1172825971905193966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_44
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 627
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f178e2053a847dd50800000000000000
+      internalID: 6761953231782184735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_45
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 616
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df736d124969626f0800000000000000
+      internalID: -709714328297261059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_46
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 564
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20557c6934097310800000000000000
+      internalID: 1403157403581894703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_47
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 575
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f320dc01b728d1560800000000000000
+      internalID: 7286123237229789759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_48
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 636
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c85975ceda31060800000000000000
+      internalID: 6923068282791889972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_49
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 616
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15730e4a83fe1cf80800000000000000
+      internalID: -8087920429217335471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_50
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 616
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93c8b2c19d85f970800000000000000
+      internalID: 8788085905060053917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_51
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 622
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732c30639c7f9ae00800000000000000
+      internalID: 1056648031161795127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_52
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 589
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e5a1bd0e35c2960800000000000000
+      internalID: 7578524498171420257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_53
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 612
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762bb79682b306970800000000000000
+      internalID: 8746055521107948135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_54
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 593
+        width: 85
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cb4cad361970ce0800000000000000
+      internalID: -1439021697863467952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_55
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 561
+        width: 19
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e311cc92678031d0800000000000000
+      internalID: -3373047263294057499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_56
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 429
+        width: 124
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f696a9e72265a80800000000000000
+      internalID: -8478551321326555237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_57
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 429
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc8a4c7460a82080800000000000000
+      internalID: -9211936684343915266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_58
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 429
+        width: 97
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ea4e50611cb2e90800000000000000
+      internalID: -7049328491386065324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_59
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 429
+        width: 134
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2139f1f181eac9d30800000000000000
+      internalID: 4439614751305077522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_60
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 429
+        width: 91
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6769c51d4e86ed1e0800000000000000
+      internalID: -2171182638371662218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_61
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 429
+        width: 137
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf5c8d0e45c16700800000000000000
+      internalID: 531923170031853499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_62
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 429
+        width: 98
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a441c1ed935a5cb10800000000000000
+      internalID: 2001187277394154570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_63
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 429
+        width: 100
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410977ece42625010800000000000000
+      internalID: 1176110543308034068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_64
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 389
+        width: 59
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c41e0b750775470800000000000000
+      internalID: 8383292753305488392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_65
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 368
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239f6a43f37c45280800000000000000
+      internalID: -9055393876454999758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_66
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 340
+        width: 100
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726e8acab500b40e0800000000000000
+      internalID: -2284731992221620697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_67
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 352
+        width: 66
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83251147e36538490800000000000000
+      internalID: -7745252107911867848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_68
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 327
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dbdb877d221f5c0800000000000000
+      internalID: -4183524270011466360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_69
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 327
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194a421ae63ce3ba0800000000000000
+      internalID: -6107229164750461807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_70
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 369
+        width: 59
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9638c229203fda890800000000000000
+      internalID: -7445027416605686935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_71
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 323
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5430c1df33b6850800000000000000
+      internalID: 6371243260035417547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_72
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 321
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352b5314f3a144d70800000000000000
+      internalID: 9026368412136616531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_73
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 349
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88646ba5244ef8b90800000000000000
+      internalID: -7237315102520228216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_74
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 314
+        width: 80
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fefdcc6f4ba6a00800000000000000
+      internalID: 750611260002791171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_75
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 304
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfce5be6ec2f8320800000000000000
+      internalID: 2562316083300061137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_76
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 301
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7df05a18169ec80800000000000000
+      internalID: -8292990029378103344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_77
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 321
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc77a23935f165900800000000000000
+      internalID: 672759638150248395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_78
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 269
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e276d0225b7c2cf60800000000000000
+      internalID: 8053218664466179886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_79
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 279
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88386e4cdbccdd100800000000000000
+      internalID: 134488679315309448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_80
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 279
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d9179ebffd3b190800000000000000
+      internalID: -7947762644332471039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_81
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 276
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4a857602848c840800000000000000
+      internalID: 5244521070082958500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_82
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 255
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcf279e75da0abd0800000000000000
+      internalID: -2620904390039241476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_83
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 278
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edf0cd12a64273c0800000000000000
+      internalID: -4363347426870755872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_84
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 255
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe8f0436ab7d7ec0800000000000000
+      internalID: -3567559376039342344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_85
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 243
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40de0370c690ff90800000000000000
+      internalID: -6921866873960214452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_86
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 295
+        width: 83
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd5aa581a5c99380800000000000000
+      internalID: -8963916285781320257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_87
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 291
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1866c8236b61580800000000000000
+      internalID: -8856691288957353560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_88
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 244
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be97708e8d19a18f0800000000000000
+      internalID: -568982042117178901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_89
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 250
+        width: 65
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2618d40981093f1a0800000000000000
+      internalID: -6776914579087851166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PackSea01_90
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 234
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c801ec04c7193cbc0800000000000000
+      internalID: -3764004900702383988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8c841490ad4c7dc498e521b27868abd1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
