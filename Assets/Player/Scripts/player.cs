@@ -13,20 +13,13 @@ public class player : MonoBehaviour
     Rigidbody2D rig;
     public float speed = 0.1f;
     public float speed_x_constraint;
-    public bool jumpingCheck = false;
-    public bool fallingCheck = false;
-    public float fallingSpeed;
-    public float jumpForce;
-    public Animator MotionAnimator;
-    public bool FloorCheck = false;
-    public bool jumptofallcheck = false;
-    public float JumpSpeed = 100f;
     public int RunSpeed;
-    public Transform ledgeCheck;
-    private bool isTouchingLedge;
+    public Animator MotionAnimator;
     private bool isTouchingWall;
     public Transform wallCheck;
     public float wallCheckDistance;
+    public Transform ledgeCheck;
+    private bool isTouchingLedge;
     public LayerMask whatIsGround;
     private bool canClimbLedge = false;
     private bool ledgeDetected;
@@ -39,6 +32,15 @@ public class player : MonoBehaviour
     public float ledgeClimbYOffset2 = 0f;
     public bool isFacingRight = true;
 
+    [Header("Jump")]
+    public bool FloorCheck = false;
+    public bool jumptofallcheck = false;
+    public float JumpSpeed = 100f;
+    public bool jumpingCheck = false;
+    public bool fallingCheck = false;
+    public float fallingSpeed;
+    public float jumpForce;
+
     [Header("Health")]
     public int hp = 4;
     public int maxHp = 4;
@@ -46,13 +48,16 @@ public class player : MonoBehaviour
     public float health;
     public float maxHealth;
 
-    [Header("Iframe Stuff")]
+    [Header("Iframe Stuff & Invulnerability")]
     public Color flashColor;
     public Color regularColor;
     public float flashDuration;
     public int numberOfFlashes;
     public Collider2D triggerCollider;
     public SpriteRenderer mySprite;
+    Renderer rend;
+    Color c;
+    public float invulnerableTime;
 
     [Header("Damage Screen")]
     public Color damageColor;
@@ -61,12 +66,17 @@ public class player : MonoBehaviour
     bool isTalkingDamage = false;
 
 
+    
+
+
     public void Start()
     {
         rig = this.gameObject.GetComponent<Rigidbody2D>();
         hp = maxHp;
         maxHp = 4;
         PercentageMat.SetFloat("_Percentage", health / maxHealth);
+        rend = GetComponent<Renderer>();
+        c = rend.material.color;
     }
     void Update()
     {
@@ -149,17 +159,14 @@ public class player : MonoBehaviour
             Vector2 difference = transform.position - other.transform.position;
             transform.position = new Vector2(transform.position.x + difference.x, transform.position.y + difference.y);
             StartCoroutine(FlashCollider());
+            StartCoroutine(GetInerable());
             isTalkingDamage = true;
-            
-            
         }
 
         if (other.gameObject.tag == "Trampoline")
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 25f);
         }
-       
-    
     }
 
     void OnCollisionExit2D(Collision2D otherexit)
@@ -375,6 +382,17 @@ public class player : MonoBehaviour
             temp++;
         }
         triggerCollider.enabled = true;
+    }
+
+    IEnumerator GetInerable()
+    {
+        Physics2D.IgnoreLayerCollision(14,15,true);
+        c.a = 0.5f;
+        rend.material.color = c;
+        yield return new WaitForSeconds(invulnerableTime);
+        Physics2D.IgnoreLayerCollision(14,15,false);
+        c.a = 1f;
+        rend.material.color = c;
     }
 }
 
