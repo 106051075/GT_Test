@@ -12,6 +12,7 @@ TagManager:
   - monster
   - Trampoline
   - Trampoline2
+  - energy
   layers:
   - Default
   - TransparentFX
@@ -30,7 +31,7 @@ TagManager:
   - monster
   - player
   - Effects
-  - 
+  - crystal
   - 
   - 
   - 

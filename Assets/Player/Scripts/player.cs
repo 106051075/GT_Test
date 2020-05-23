@@ -66,9 +66,6 @@ public class player : MonoBehaviour
     bool isTalkingDamage = false;
 
 
-    
-
-
     public void Start()
     {
         rig = this.gameObject.GetComponent<Rigidbody2D>();
@@ -178,7 +175,6 @@ public class player : MonoBehaviour
                 Debug.Log("OffFloor");
                 MotionAnimator.SetBool("OnFloor", FloorCheck);
            }
-        
     }
 
     private void CheckSurroundings()
@@ -384,7 +380,7 @@ public class player : MonoBehaviour
         triggerCollider.enabled = true;
     }
 
-    IEnumerator GetInerable()
+    private IEnumerator GetInerable()
     {
         Physics2D.IgnoreLayerCollision(14,15,true);
         c.a = 0.5f;
