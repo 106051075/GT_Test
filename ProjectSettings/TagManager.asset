@@ -13,6 +13,7 @@ TagManager:
   - Trampoline
   - Trampoline2
   - energy
+  - ParticleEnergy
   layers:
   - Default
   - TransparentFX
@@ -32,7 +33,7 @@ TagManager:
   - player
   - Effects
   - crystal
-  - 
+  - vine
   - 
   - 
   - 

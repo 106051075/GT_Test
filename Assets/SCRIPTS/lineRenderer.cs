@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class lineRenderer : MonoBehaviour
 {
-    lineRenderer line;
     public Transform startPoint;
     public Transform Point1;
     public Transform Point2;
@@ -36,12 +35,6 @@ public class lineRenderer : MonoBehaviour
     public Transform Point28;
     public Transform Point29;
     
-
-    void Start()
-    {
-        line = GetComponent<lineRenderer>();
-    }
-
     // Update is called once per frame
     void Update()
     {
