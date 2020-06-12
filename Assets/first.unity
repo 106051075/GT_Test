@@ -214,10 +214,9 @@ GameObject:
   - component: {fileID: 15430148}
   - component: {fileID: 15430147}
   - component: {fileID: 15430146}
-  - component: {fileID: 15430149}
   m_Layer: 18
   m_Name: c3
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -297,18 +296,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &15430149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 15430144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &41413039
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,10 +613,9 @@ GameObject:
   - component: {fileID: 95716267}
   - component: {fileID: 95716266}
   - component: {fileID: 95716265}
-  - component: {fileID: 95716268}
   m_Layer: 18
   m_Name: c5
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -709,18 +695,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &95716268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 95716263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &102350147
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,10 +707,9 @@ GameObject:
   - component: {fileID: 102350151}
   - component: {fileID: 102350150}
   - component: {fileID: 102350149}
-  - component: {fileID: 102350152}
   m_Layer: 18
   m_Name: c11
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -816,18 +789,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &102350152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 102350147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &106210411
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,10 +831,9 @@ GameObject:
   - component: {fileID: 114696873}
   - component: {fileID: 114696872}
   - component: {fileID: 114696871}
-  - component: {fileID: 114696874}
   m_Layer: 18
   m_Name: c17
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -953,18 +913,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &114696874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114696869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &133102150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,10 +1002,9 @@ GameObject:
   - component: {fileID: 164822646}
   - component: {fileID: 164822645}
   - component: {fileID: 164822644}
-  - component: {fileID: 164822647}
   m_Layer: 18
   m_Name: c25
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1137,18 +1084,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &164822647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164822642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &213232007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,10 +1201,9 @@ GameObject:
   - component: {fileID: 232415554}
   - component: {fileID: 232415553}
   - component: {fileID: 232415552}
-  - component: {fileID: 232415555}
   m_Layer: 18
   m_Name: c12
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1349,18 +1283,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &232415555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 232415550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &239453926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,10 +1610,9 @@ GameObject:
   - component: {fileID: 283989690}
   - component: {fileID: 283989689}
   - component: {fileID: 283989688}
-  - component: {fileID: 283989691}
   m_Layer: 18
   m_Name: c22
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1771,18 +1692,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &283989691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283989686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &293297958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1797,7 +1706,7 @@ GameObject:
   - component: {fileID: 293297960}
   m_Layer: 18
   m_Name: rope
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1887,34 +1796,6 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
-  - {x: 0, y: 0, z: 1}
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
@@ -2253,10 +2134,9 @@ GameObject:
   - component: {fileID: 381378349}
   - component: {fileID: 381378348}
   - component: {fileID: 381378347}
-  - component: {fileID: 381378350}
   m_Layer: 18
   m_Name: c6
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2336,18 +2216,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &381378350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 381378345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &402385357
 GameObject:
   m_ObjectHideFlags: 0
@@ -7420,10 +7288,9 @@ GameObject:
   - component: {fileID: 618674481}
   - component: {fileID: 618674480}
   - component: {fileID: 618674479}
-  - component: {fileID: 618674482}
   m_Layer: 18
   m_Name: c4
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7503,18 +7370,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &618674482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 618674477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &676961358
 GameObject:
   m_ObjectHideFlags: 0
@@ -8135,10 +7990,9 @@ GameObject:
   - component: {fileID: 846318779}
   - component: {fileID: 846318778}
   - component: {fileID: 846318777}
-  - component: {fileID: 846318780}
   m_Layer: 18
   m_Name: c29
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8218,18 +8072,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &846318780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846318775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &862700596
 GameObject:
   m_ObjectHideFlags: 0
@@ -8242,10 +8084,9 @@ GameObject:
   - component: {fileID: 862700600}
   - component: {fileID: 862700599}
   - component: {fileID: 862700598}
-  - component: {fileID: 862700601}
   m_Layer: 18
   m_Name: c20
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8325,18 +8166,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &862700601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862700596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &924335904
 GameObject:
   m_ObjectHideFlags: 0
@@ -8427,11 +8256,10 @@ GameObject:
   - component: {fileID: 952273784}
   - component: {fileID: 952273787}
   - component: {fileID: 952273786}
-  - component: {fileID: 952273785}
   - component: {fileID: 952273788}
   m_Layer: 18
   m_Name: c30
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8450,18 +8278,6 @@ Transform:
   m_Father: {fileID: 293297959}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &952273785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952273783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &952273786
 Rigidbody2D:
   serializedVersion: 4
@@ -8741,10 +8557,9 @@ GameObject:
   - component: {fileID: 1050312336}
   - component: {fileID: 1050312335}
   - component: {fileID: 1050312334}
-  - component: {fileID: 1050312337}
   m_Layer: 18
   m_Name: c2
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8824,18 +8639,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1050312337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050312332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1070706196
 GameObject:
   m_ObjectHideFlags: 0
@@ -8848,10 +8651,9 @@ GameObject:
   - component: {fileID: 1070706200}
   - component: {fileID: 1070706199}
   - component: {fileID: 1070706198}
-  - component: {fileID: 1070706201}
   m_Layer: 18
   m_Name: c18
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8931,18 +8733,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1070706201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1070706196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1076038149
 GameObject:
   m_ObjectHideFlags: 0
@@ -8986,10 +8776,9 @@ GameObject:
   - component: {fileID: 1125992461}
   - component: {fileID: 1125992460}
   - component: {fileID: 1125992459}
-  - component: {fileID: 1125992462}
   m_Layer: 18
   m_Name: c15
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9069,18 +8858,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1125992462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125992457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1146812088
 GameObject:
   m_ObjectHideFlags: 0
@@ -14484,10 +14261,9 @@ GameObject:
   - component: {fileID: 1283975298}
   - component: {fileID: 1283975297}
   - component: {fileID: 1283975296}
-  - component: {fileID: 1283975299}
   m_Layer: 18
   m_Name: c10
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14567,18 +14343,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1283975299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1283975294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1307714064
 GameObject:
   m_ObjectHideFlags: 0
@@ -14946,10 +14710,9 @@ GameObject:
   - component: {fileID: 1344751692}
   - component: {fileID: 1344751691}
   - component: {fileID: 1344751690}
-  - component: {fileID: 1344751693}
   m_Layer: 18
   m_Name: c19
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15029,18 +14792,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1344751693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1344751688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1349027650
 GameObject:
   m_ObjectHideFlags: 0
@@ -15338,10 +15089,9 @@ GameObject:
   - component: {fileID: 1376120107}
   - component: {fileID: 1376120106}
   - component: {fileID: 1376120105}
-  - component: {fileID: 1376120108}
   m_Layer: 18
   m_Name: c16
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15421,18 +15171,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1376120108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376120103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1386783547
 GameObject:
   m_ObjectHideFlags: 0
@@ -15445,10 +15183,9 @@ GameObject:
   - component: {fileID: 1386783551}
   - component: {fileID: 1386783550}
   - component: {fileID: 1386783549}
-  - component: {fileID: 1386783552}
   m_Layer: 18
   m_Name: c8
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15528,18 +15265,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1386783552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1386783547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1394595127
 GameObject:
   m_ObjectHideFlags: 0
@@ -15893,6 +15618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1456399695}
   - component: {fileID: 1456399696}
+  - component: {fileID: 1456399697}
   m_Layer: 17
   m_Name: crystal
   m_TagString: Untagged
@@ -15930,6 +15656,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 8
+--- !u!114 &1456399697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456399694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2546b5b203e645f4ba6e053ac9210ff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 293297958}
+  LengthOfLineRenderer: 30
+  speed: 1
 --- !u!1 &1463193412
 GameObject:
   m_ObjectHideFlags: 0
@@ -16396,10 +16137,9 @@ GameObject:
   - component: {fileID: 1535328723}
   - component: {fileID: 1535328722}
   - component: {fileID: 1535328721}
-  - component: {fileID: 1535328724}
   m_Layer: 18
   m_Name: c7
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16479,18 +16219,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1535328724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535328719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1566263776
 GameObject:
   m_ObjectHideFlags: 0
@@ -16581,10 +16309,9 @@ GameObject:
   - component: {fileID: 1598183034}
   - component: {fileID: 1598183033}
   - component: {fileID: 1598183032}
-  - component: {fileID: 1598183031}
   m_Layer: 18
   m_Name: c1
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16603,18 +16330,6 @@ Transform:
   m_Father: {fileID: 293297959}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1598183031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598183029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!233 &1598183032
 HingeJoint2D:
   m_ObjectHideFlags: 0
@@ -16907,10 +16622,9 @@ GameObject:
   - component: {fileID: 1680880303}
   - component: {fileID: 1680880302}
   - component: {fileID: 1680880301}
-  - component: {fileID: 1680880304}
   m_Layer: 18
   m_Name: c23
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16990,18 +16704,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1680880304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680880299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1687679962
 GameObject:
   m_ObjectHideFlags: 0
@@ -17045,10 +16747,9 @@ GameObject:
   - component: {fileID: 1721143704}
   - component: {fileID: 1721143703}
   - component: {fileID: 1721143702}
-  - component: {fileID: 1721143705}
   m_Layer: 18
   m_Name: c9
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17128,18 +16829,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1721143705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721143700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1730834497
 GameObject:
   m_ObjectHideFlags: 0
@@ -17810,10 +17499,9 @@ GameObject:
   - component: {fileID: 1824111288}
   - component: {fileID: 1824111287}
   - component: {fileID: 1824111286}
-  - component: {fileID: 1824111289}
   m_Layer: 18
   m_Name: c14
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17893,18 +17581,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1824111289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824111284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1847064709
 GameObject:
   m_ObjectHideFlags: 0
@@ -22776,10 +22452,9 @@ GameObject:
   - component: {fileID: 1940868389}
   - component: {fileID: 1940868388}
   - component: {fileID: 1940868387}
-  - component: {fileID: 1940868390}
   m_Layer: 18
   m_Name: c28
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22859,18 +22534,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1940868390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1940868385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1942297159
 GameObject:
   m_ObjectHideFlags: 0
@@ -27637,10 +27300,9 @@ GameObject:
   - component: {fileID: 1957970916}
   - component: {fileID: 1957970915}
   - component: {fileID: 1957970914}
-  - component: {fileID: 1957970917}
   m_Layer: 18
   m_Name: c21
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27720,18 +27382,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1957970917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1957970912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1981549143
 GameObject:
   m_ObjectHideFlags: 0
@@ -32751,10 +32401,9 @@ GameObject:
   - component: {fileID: 1984471655}
   - component: {fileID: 1984471654}
   - component: {fileID: 1984471653}
-  - component: {fileID: 1984471656}
   m_Layer: 18
   m_Name: c26
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32834,18 +32483,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &1984471656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1984471651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2012287571
 GameObject:
   m_ObjectHideFlags: 0
@@ -32858,10 +32495,9 @@ GameObject:
   - component: {fileID: 2012287575}
   - component: {fileID: 2012287574}
   - component: {fileID: 2012287573}
-  - component: {fileID: 2012287576}
   m_Layer: 18
   m_Name: c27
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32941,18 +32577,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &2012287576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2012287571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2014820049
 GameObject:
   m_ObjectHideFlags: 0
@@ -33011,10 +32635,9 @@ GameObject:
   - component: {fileID: 2089611664}
   - component: {fileID: 2089611663}
   - component: {fileID: 2089611662}
-  - component: {fileID: 2089611665}
   m_Layer: 18
   m_Name: c24
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33094,18 +32717,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &2089611665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089611660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2091292163
 GameObject:
   m_ObjectHideFlags: 0
@@ -33274,10 +32885,9 @@ GameObject:
   - component: {fileID: 2112169928}
   - component: {fileID: 2112169927}
   - component: {fileID: 2112169926}
-  - component: {fileID: 2112169929}
   m_Layer: 18
   m_Name: c13
-  m_TagString: Untagged
+  m_TagString: vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33357,18 +32967,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.1, y: 0.3}
   m_Direction: 0
---- !u!114 &2112169929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2112169924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cac33a3c22a45054a88599e47ba1845f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2134259305
 GameObject:
   m_ObjectHideFlags: 0
