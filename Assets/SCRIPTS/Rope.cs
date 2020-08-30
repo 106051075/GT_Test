@@ -1,77 +1,55 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.UIElements;
 
 public class Rope : MonoBehaviour
 {
-    int crystal;
-    private int energyValue;
-    private LineRenderer LR;
-    private int LengthOfLineRenderer = 30;
-    bool touch = false;
-    private float time = 0;
-    bool isOver = false;
-
-
+    [SerializeField] private string selectableTag = "vine";
+    HingeJoint2D VineJoint;
+    public GameObject P_Target;
+    public GameObject V_Target;
+    bool isToching = false;
 
     private void Start()
     {
-        crystal = LayerMask.NameToLayer("crystal");
-        energyValue = 1;
-        LR = GetComponent<LineRenderer>();
-        LR.positionCount = LengthOfLineRenderer;
-    }
-
-    private void OnMouseOver()
-    {
-        isOver= true;
-        print("click");
-    }
-
-    private void OnMouseExit()
-    {
-        isOver = false;
+       VineJoint = V_Target.gameObject.AddComponent<HingeJoint2D>();
     }
 
     private void Update()
     {
-        isOn();
+        connect();
     }
 
-    private void OnCollisionStay2D(Collision2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
-        LineRenderer lineRenderer = GetComponent<LineRenderer>();
-        if (other.gameObject.layer == crystal)
+        if (other.gameObject.CompareTag(selectableTag))
         {
-          touch = true;
-            print("touch");
+            isToching = true;
+            print("isTouch");
         }
     }
-    private void OnCollisionExit2D(Collision2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        if(other.gameObject.layer == crystal && Input.GetMouseButtonUp(1) && energyValue == 0)
+        if (other.gameObject.CompareTag(selectableTag))
         {
-
+            isToching = false;
         }
     }
 
-    private void isOn()
+    void connect()
     {
-        if (touch == true)
+        if(isToching == true)
         {
-            if(isOver == true)
+            if(Input.GetKey(KeyCode.V))
             {
-                if (Input.GetMouseButtonDown(0) && EnergyNumber.a <= 4 && EnergyNumber.a >= 0 && energyValue == 1)
-                {
-                    energyValue -= 1;
-                    LR.positionCount -= 1;
-                    if (LR.positionCount <= 15)
-                    {
-                        touch = false;
-                    }
-                }
+                VineJoint.connectedBody = P_Target.gameObject.GetComponent<Rigidbody2D>();
+            }
+            if(Input.GetKeyUp(KeyCode.V))
+            {
+                
             }
         }
     }

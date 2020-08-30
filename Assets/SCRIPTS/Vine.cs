@@ -5,12 +5,20 @@ using UnityEngine.UIElements;
 
 public class Vine : MonoBehaviour
 {
+    [SerializeField] private string selectableTag = "vine";
     public GameObject Target;
-    public int LengthOfLineRenderer = 30;
+    public int LengthOfLineRenderer = 8;
     bool isTouch = false;
-    bool isOver = false;
-    int hp;
+    public int hp;
     public float speed;
+    bool isTouchingRope = false;
+
+    [Header("hide")]
+    public Collider2D c5;
+    public Collider2D c6;
+    public Collider2D c7;
+    public Collider2D c8;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,61 +26,54 @@ public class Vine : MonoBehaviour
         hp = 1;
     }
 
-    private void OnMouseOver()
-    {
-        if(gameObject.CompareTag("vine"))
-        {
-            isOver = true;
-        }
-    }
-    private void OnMouseExit()
-    {
-        if (gameObject.CompareTag("vine"))
-        {
-            isOver = false;
-        }
-    }
-
     // Update is called once per frame
     void Update()
     {
         LineRenderer lr = Target.GetComponent<LineRenderer>();
         lr.positionCount = LengthOfLineRenderer;
-        if(isOver == true)
+        ClickSelect();
+        if (isTouchingRope == true)
         {
             if (isTouch == true)
             {
                 if (Input.GetMouseButtonDown(0) && EnergyNumber.a <= 4 && EnergyNumber.a >= 0 && hp == 1)
                 {
                     hp -= 1;
-                    Energy.energyClick1 = true;
+                    CoreOfLife.Click1 = true;
                 }
                 if (Input.GetMouseButtonDown(1) && EnergyNumber.a <= 5 && EnergyNumber.a >= 1 && hp == 0)
                 {
                     hp += 1;
-                    Energy.energyClick2 = true;
+                    CoreOfLife.Click2 = true;
                 }
             }
         }
         if (hp == 0)
         {
             StartCoroutine("Diminishing");
-            if (LengthOfLineRenderer == 15)
+            if (LengthOfLineRenderer == 4)
             {
                 StopCoroutine("Diminishing");
                 isTouch = false;
             }
-        }
+            c5.enabled = false;
+            c6.enabled = false;
+            c7.enabled = false;
+            c8.enabled = false;
+         }
         if(hp == 1)
         {
             StartCoroutine("Increment");
-            if(LengthOfLineRenderer == 30)
+            if(LengthOfLineRenderer == 8)
             {
                 StopCoroutine("Increment");
                 isTouch = false;
             }
+            c5.enabled = true;
+            c6.enabled = true;
+            c7.enabled = true;
+            c8.enabled = true;
         }
-        
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -96,7 +97,7 @@ public class Vine : MonoBehaviour
     {
         LineRenderer lr = Target.GetComponent<LineRenderer>();
         lr.positionCount = LengthOfLineRenderer;
-        while(LengthOfLineRenderer >= 16)
+        while(LengthOfLineRenderer >= 5)
         {
             LengthOfLineRenderer--;
             Debug.Log(LengthOfLineRenderer);
@@ -109,12 +110,29 @@ public class Vine : MonoBehaviour
     {
         LineRenderer lr = Target.GetComponent<LineRenderer>();
         lr.positionCount = LengthOfLineRenderer;
-        while(LengthOfLineRenderer <= 29)
+        while(LengthOfLineRenderer <= 7)
         {
             LengthOfLineRenderer++;
             Debug.Log(LengthOfLineRenderer);
             yield return new WaitForSeconds(speed);
         }
         yield break;
+    }
+
+    GameObject ClickSelect()
+    {
+        Vector2 rayPos = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x,Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
+        RaycastHit2D hit = Physics2D.Raycast(rayPos, Vector2.zero, 0f, LayerMask.GetMask("vine"));
+        var selection = hit.transform;
+        if (selection.CompareTag(selectableTag))
+        {
+            isTouchingRope = true;
+            return hit.transform.gameObject;
+        }
+        else
+        {
+            isTouchingRope = false;
+            return null;
+        }
     }
 }

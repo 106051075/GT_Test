@@ -1,0 +1,860 @@
+fileFormatVersion: 2
+guid: ea6f617d80e81664fb6ad64f28bfef9a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6467292056932697119
+    second: lifeFlower_back_0
+  - first:
+      213: -9200058664658121176
+    second: lifeFlower_back_1
+  - first:
+      213: 1058326964770095940
+    second: lifeFlower_back_2
+  - first:
+      213: 4570716313983655330
+    second: lifeFlower_back_3
+  - first:
+      213: 194131191982733430
+    second: lifeFlower_back_4
+  - first:
+      213: -770480923204574712
+    second: lifeFlower_back_5
+  - first:
+      213: 1768491832716330047
+    second: lifeFlower_back_6
+  - first:
+      213: 1974496059209913455
+    second: lifeFlower_back_7
+  - first:
+      213: -2894595818750828189
+    second: lifeFlower_back_8
+  - first:
+      213: -7904009332381355727
+    second: lifeFlower_back_9
+  - first:
+      213: -870860630656874164
+    second: lifeFlower_back_10
+  - first:
+      213: 6839154656593660373
+    second: lifeFlower_back_11
+  - first:
+      213: 4237816143330630982
+    second: lifeFlower_back_12
+  - first:
+      213: 2616370604801339739
+    second: lifeFlower_back_13
+  - first:
+      213: -2027151535082887762
+    second: lifeFlower_back_14
+  - first:
+      213: 2859689879257239507
+    second: lifeFlower_back_15
+  - first:
+      213: 8032112717719273227
+    second: lifeFlower_back_16
+  - first:
+      213: -2261765757585330406
+    second: lifeFlower_back_17
+  - first:
+      213: -8118483681621638435
+    second: lifeFlower_back_18
+  - first:
+      213: 191627911974040919
+    second: lifeFlower_back_19
+  - first:
+      213: 514375413676754985
+    second: lifeFlower_back_20
+  - first:
+      213: 8097160916818019610
+    second: lifeFlower_back_21
+  - first:
+      213: 1866872611445324151
+    second: lifeFlower_back_22
+  - first:
+      213: -8300877475964534232
+    second: lifeFlower_back_23
+  - first:
+      213: -729114512105761432
+    second: lifeFlower_back_24
+  - first:
+      213: 6774841859663149812
+    second: lifeFlower_back_25
+  - first:
+      213: 5060469106074534338
+    second: lifeFlower_back_26
+  - first:
+      213: 1302548642531762984
+    second: lifeFlower_back_27
+  - first:
+      213: 355176352960911352
+    second: lifeFlower_back_28
+  - first:
+      213: -8848287478901332957
+    second: lifeFlower_back_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lifeFlower_back_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1724
+        width: 162
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14cd205cdf60c950800000000000000
+      internalID: 6467292056932697119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1724
+        width: 163
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e4c447363d25080800000000000000
+      internalID: -9200058664658121176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_2
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1724
+        width: 165
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443c65764ceefae00800000000000000
+      internalID: 1058326964770095940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_3
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1724
+        width: 163
+        height: 201
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad141855427e6f30800000000000000
+      internalID: 4570716313983655330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_4
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1724
+        width: 168
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67834f16a41b1b200800000000000000
+      internalID: 194131191982733430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1379
+        width: 163
+        height: 212
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8022d2abea3be45f0800000000000000
+      internalID: -770480923204574712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_6
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1379
+        width: 163
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f348c35b3f1fa8810800000000000000
+      internalID: 1768491832716330047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_7
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1379
+        width: 163
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f649d9b54b1d66b10800000000000000
+      internalID: 1974496059209913455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_8
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1379
+        width: 164
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361a607607454d7d0800000000000000
+      internalID: -2894595818750828189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_9
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1379
+        width: 163
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1317902b3615f4290800000000000000
+      internalID: -7904009332381355727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1034
+        width: 163
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4903d4ded41ae3f0800000000000000
+      internalID: -870860630656874164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1034
+        width: 163
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9493ebcee89ee50800000000000000
+      internalID: 6839154656593660373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1037
+        width: 163
+        height: 265
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d53a6545fbfca30800000000000000
+      internalID: 4237816143330630982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_13
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1034
+        width: 163
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5135f3f3373f4420800000000000000
+      internalID: 2616370604801339739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_14
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1034
+        width: 163
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea52f7d4b6c1ed3e0800000000000000
+      internalID: -2027151535082887762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_15
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 689
+        width: 163
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df48ec3bc8afa720800000000000000
+      internalID: 2859689879257239507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 689
+        width: 162
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ffd87f5fbc77f60800000000000000
+      internalID: 8032112717719273227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_17
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 689
+        width: 162
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1febfdd6089c90e0800000000000000
+      internalID: -2261765757585330406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_18
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 689
+        width: 163
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2032aea1a555f80800000000000000
+      internalID: -8118483681621638435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_19
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 689
+        width: 163
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7553346129cc8a200800000000000000
+      internalID: 191627911974040919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 344
+        width: 163
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928c565a6bd632700800000000000000
+      internalID: 514375413676754985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_21
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 344
+        width: 162
+        height: 279
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a154d1804f4ee5070800000000000000
+      internalID: 8097160916818019610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_22
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 344
+        width: 162
+        height: 280
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779ba1ebfb678e910800000000000000
+      internalID: 1866872611445324151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_23
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 344
+        width: 163
+        height: 281
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822c7116aeb5dcc80800000000000000
+      internalID: -8300877475964534232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_24
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 344
+        width: 163
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8659a59d63aa1e5f0800000000000000
+      internalID: -729114512105761432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 163
+        height: 281
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa3ba6d6c2150e50800000000000000
+      internalID: 6774841859663149812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_26
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 162
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1496827d56a3640800000000000000
+      internalID: 5060469106074534338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_27
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 0
+        width: 162
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823e5c4d615931210800000000000000
+      internalID: 1302548642531762984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_28
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 0
+        width: 163
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f79aded207dde400800000000000000
+      internalID: 355176352960911352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower_back_29
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 0
+        width: 163
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324ac8d0b61943580800000000000000
+      internalID: -8848287478901332957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

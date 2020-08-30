@@ -31,15 +31,19 @@ public class player : MonoBehaviour
     public float ledgeClimbXOffset2 = 0f;
     public float ledgeClimbYOffset2 = 0f;
     public bool isFacingRight = true;
+    private bool isVine;
 
     [Header("Jump")]
-    public bool FloorCheck = false;
-    public bool jumptofallcheck = false;
-    public float JumpSpeed = 100f;
-    public bool jumpingCheck = false;
-    public bool fallingCheck = false;
-    public float fallingSpeed;
-    public float jumpForce;
+    //public bool FloorCheck = false;
+    //public bool jumptofallcheck = false;
+    public float JumpSpeed;
+    //public bool jumpingCheck = false;
+    //public bool fallingCheck = false;
+    //public float fallingSpeed;
+    //public float jumpForce;
+
+    private bool canDoubleJump;
+    public float DoubleJumpSpeed;
 
     [Header("Health")]
     public int hp = 4;
@@ -65,6 +69,24 @@ public class player : MonoBehaviour
     float colorSmoothing = 2f;
     bool isTalkingDamage = false;
 
+    [Header("Climb")]
+    public GameObject Target;
+    private bool isLadder;
+    private bool isClimbing;
+    private BoxCollider2D myFeet;
+    public float climbSpeed;
+    private float PlayerGravity;
+    private bool isJumping;
+
+
+    public float distance;
+    public LayerMask whatIsLadder;
+
+    [Header("Platform & Ladder")]
+    private bool isFloor;
+    private bool isOnWayPlatform;
+    public float RestoreTime;
+
 
     public void Start()
     {
@@ -74,17 +96,24 @@ public class player : MonoBehaviour
         PercentageMat.SetFloat("_Percentage", health / maxHealth);
         rend = GetComponent<Renderer>();
         c = rend.material.color;
+        myFeet = Target.GetComponent<BoxCollider2D>();
+        PlayerGravity = rig.gravityScale;
     }
     void Update()
     {
+        CheckAirStatus();
         walk();
         jump();
-        JumpToFall();
-        FallingFunction();
         Run();
         CheckLedgeClimb();
+        Check();
+        CheckFloor();
+        OnWayPlatformCheck();
+        SwitchAnimation();
+        //JumpToFall();
+        //FallingFunction();
 
-
+        #region HealthBar
         if (rig.velocity.x > speed_x_constraint)
         {
             rig.velocity = new Vector2(speed_x_constraint, rig.velocity.y);
@@ -122,6 +151,7 @@ public class player : MonoBehaviour
             health = 314;
             PercentageMat.SetFloat("_Percentage", health / maxHealth);
         }
+        #endregion
 
         if (isTalkingDamage)
         {
@@ -137,17 +167,33 @@ public class player : MonoBehaviour
     private void FixedUpdate()
     {
         CheckSurroundings();
+        Climb();
+
+
+    }
+
+    void CheckFloor()
+    {
+        isFloor = myFeet.IsTouchingLayers(LayerMask.GetMask("floor")) ||
+                  myFeet.IsTouchingLayers(LayerMask.GetMask("OnWayPlatform"));
+        isOnWayPlatform = myFeet.IsTouchingLayers(LayerMask.GetMask("OnWayPlatform"));
+    }
+
+    void Check()
+    {
+        isLadder = myFeet.IsTouchingLayers(LayerMask.GetMask("ladder"));
+        isVine = myFeet.IsTouchingLayers(LayerMask.GetMask("vine"));
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "floor")
-        {
-            FloorCheck = true;
-            jumpingCheck = true;
-            Debug.Log("Floor");
-            MotionAnimator.SetBool("OnFloor", FloorCheck);
-        }
+        //if (other.gameObject.tag == "floor")
+        //{
+        //    FloorCheck = true;
+        //    jumpingCheck = true;
+        //    Debug.Log("Floor");
+        //    MotionAnimator.SetBool("OnFloor", FloorCheck);
+        //}
 
         if (other.gameObject.tag == "monster")
         {
@@ -169,12 +215,34 @@ public class player : MonoBehaviour
     void OnCollisionExit2D(Collision2D otherexit)
     { 
         
-        if (otherexit.gameObject.tag == "floor")
-           {
-                FloorCheck = false;
-                Debug.Log("OffFloor");
-                MotionAnimator.SetBool("OnFloor", FloorCheck);
-           }
+       // if (otherexit.gameObject.tag == "floor" || isFloor)
+       //    {
+       //         FloorCheck = false;
+       //         Debug.Log("OffFloor");
+       //         MotionAnimator.SetBool("OnFloor", FloorCheck);
+       //    }
+    }
+
+    void OnWayPlatformCheck()
+    {
+        if(isFloor && gameObject.layer != LayerMask.NameToLayer("player"))
+        {
+            gameObject.layer = LayerMask.NameToLayer("player");
+        }
+
+        float moveY = Input.GetAxis("Vertical");
+        if(isOnWayPlatform && moveY < -0.1f)
+        {
+            gameObject.layer = LayerMask.NameToLayer("OnWayPlatform");
+            Invoke("RestorePlayerLayer", RestoreTime);
+        }
+    }
+    void RestorePlayerLayer()
+    {
+        if(!isFloor && gameObject.layer != LayerMask.NameToLayer("player"))
+        {
+            gameObject.layer = LayerMask.NameToLayer("player");
+        }
     }
 
     private void CheckSurroundings()
@@ -195,39 +263,24 @@ public class player : MonoBehaviour
     {
         bool IsWalking = false;
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
         {
+            float horizontalMovement = Input.GetAxisRaw("Horizontal") * speed * Time.deltaTime;
+            float verticalMoement = Input.GetAxisRaw("Vertical") * speed * Time.deltaTime;
+            Vector3 directionOfMovement = new Vector3(horizontalMovement, verticalMoement, 0);
+            gameObject.transform.Translate(directionOfMovement);
             IsWalking = true;
             Vector3 theScale = tran.localScale;
             theScale.x = 1;
             tran.localScale = theScale;
-            rig.AddForce(new Vector2(100 * speed * Time.deltaTime, 0), ForceMode2D.Force);
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
-        {
-            IsWalking = true;
-            Vector3 theScale = tran.localScale;
-            theScale.x = 1;
-            tran.localScale = theScale;
-            rig.AddForce(new Vector2(100 * speed * Time.deltaTime, 0), ForceMode2D.Force);
-        }
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             IsWalking = true;
             Vector3 theScale = tran.localScale;
             theScale.x = -1;
             tran.localScale = theScale;
-            rig.AddForce(new Vector2(-100 * speed * Time.deltaTime, 0), ForceMode2D.Force);
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            IsWalking = true;
-            Vector3 theScale = tran.localScale;
-            theScale.x = -1;
-            tran.localScale = theScale;
-            rig.AddForce(new Vector2(-100 * speed * Time.deltaTime, 0), ForceMode2D.Force);
-        }
-
         if (IsWalking)
         {
             if (ani.GetInteger("status") == 0)
@@ -244,78 +297,115 @@ public class player : MonoBehaviour
     #region Jump
     private void jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && FloorCheck == true)
+        //if (Input.GetKeyDown(KeyCode.Space) && FloorCheck == true)
+        //{
+            //jumpingCheck = true;
+            //MotionAnimator.SetBool("jumping", jumpingCheck);
+            //rig.AddForce(new Vector2(0, JumpSpeed), ForceMode2D.Impulse);
+            //ani.SetTrigger("Jump");
+            //ani.SetBool("status", false);
+            //ani.SetBool("Run", false);
+            //ani.SetBool("Jump", true);
+        //}
+
+        if(Input.GetButtonDown("Jump"))
         {
-            jumpingCheck = true;
-            MotionAnimator.SetBool("jumping", jumpingCheck);
-            rig.AddForce(new Vector2(0, JumpSpeed), ForceMode2D.Impulse);
-            ani.SetTrigger("Jump");
-            ani.SetBool("status", false);
-            ani.SetBool("Run", false);
-            ani.SetBool("Jump", true);
+            if(isFloor)
+            {
+                ani.SetTrigger("Jump");
+                ani.SetBool("status", false);
+                ani.SetBool("Run", false);
+                ani.SetBool("Jump", true);
+                Vector2 jumpVel = new Vector2(0.0f, JumpSpeed);
+                rig.velocity = Vector2.up * jumpVel;
+                canDoubleJump = true;
+            }
+            else
+            {
+                if(canDoubleJump)
+                {
+                    //ani.SetBool("DoubleJump", true);
+                    Vector2 doubleJumpVel = new Vector2(0.0f,DoubleJumpSpeed);
+                    rig.velocity = Vector2.up * doubleJumpVel;
+                    canDoubleJump = false;
+                }
+            }
         }
     }
     void JumpToFall()
     {
-        fallingSpeed = rig.velocity.y;
-        if (fallingSpeed <= 1 && FloorCheck == false)
-        {
-            jumptofallcheck = true;
-            MotionAnimator.SetBool("jumptofall", jumptofallcheck);
-            MotionAnimator.SetBool("jumping", jumpingCheck);
-        }
+       // fallingSpeed = rig.velocity.y;
+        //if (fallingSpeed <= 1 && FloorCheck == false)
+        //{
+            //jumptofallcheck = true;
+            //MotionAnimator.SetBool("jumptofall", jumptofallcheck);
+            //MotionAnimator.SetBool("jumping", jumpingCheck);
+        //}
     }
-    #endregion
     void FallingFunction()
     {
-        if (fallingSpeed < 0 && FloorCheck == false && jumptofallcheck == true)
+        //if (fallingSpeed < 0 && FloorCheck == false && jumptofallcheck == true)
+        //{
+            //fallingCheck = true;
+            //MotionAnimator.SetBool("falling", jumptofallcheck);
+            //MotionAnimator.SetBool("OnFloor", FloorCheck);
+        //}
+    }
+    #endregion
+
+    void Climb()
+    {
+        if(isLadder)
         {
-            fallingCheck = true;
-            MotionAnimator.SetBool("falling", jumptofallcheck);
-            MotionAnimator.SetBool("OnFloor", FloorCheck);
+            float moveY = Input.GetAxis("Vertical");
+            if(moveY > 0.5 || moveY < 0.5f)
+            {
+                //myAnim.Setbool("Climbing",true);
+                rig.gravityScale = 0.0f;
+                rig.velocity = new Vector2(rig.velocity.x, moveY * climbSpeed);
+            }
+            else
+            {
+                if(isJumping)
+                {
+                    //myAnim.Setbool("Climbing",false);
+                }
+                else
+                {
+                    //myAnim.Setbool("Climbing",false);
+                    rig.velocity = new Vector2(rig.velocity.x, 0.0f);
+                }
+            }
+        }
+        else
+        {
+            rig.gravityScale = PlayerGravity;
         }
     }
+
 
     #region Run
     void Run()
     {
-        if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetAxisRaw("Horizontal") != 0 && Input.GetKey(KeyCode.LeftShift) || Input.GetAxisRaw("Vertical") != 0 && Input.GetKey(KeyCode.LeftShift))
         {
+            float horizontalMovement = Input.GetAxisRaw("Horizontal") * RunSpeed * Time.deltaTime;
+            float verticalMoement = Input.GetAxisRaw("Vertical") * RunSpeed * Time.deltaTime;
+            Vector3 directionOfMovement = new Vector3(horizontalMovement, verticalMoement, 0);
+            gameObject.transform.Translate(directionOfMovement);
             Vector3 theScale = tran.localScale;
             theScale.x = 1;
             tran.localScale = theScale;
-            rig.AddForce(new Vector2(RunSpeed * speed * Time.deltaTime, 0), ForceMode2D.Force);
             ani.SetBool("status", false);
             ani.SetBool("Jump", false);
             ani.SetBool("Run", true);
 
         }
-        if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.LeftShift))
-        {
-            Vector3 theScale = tran.localScale;
-            theScale.x = 1;
-            tran.localScale = theScale;
-            rig.AddForce(new Vector2(RunSpeed * speed * Time.deltaTime, 0), ForceMode2D.Force);
-            ani.SetBool("status", false);
-            ani.SetBool("Jump", false);
-            ani.SetBool("Run", true);
-        }
-        if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.LeftShift))
         {
             Vector3 theScale = tran.localScale;
             theScale.x = -1;
             tran.localScale = theScale;
-            rig.AddForce(new Vector2(-RunSpeed * speed * Time.deltaTime, 0), ForceMode2D.Force);
-            ani.SetBool("status", false);
-            ani.SetBool("Jump", false);
-            ani.SetBool("Run", true);
-        }
-        if (Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.LeftShift))
-        {
-            Vector3 theScale = tran.localScale;
-            theScale.x = -1;
-            tran.localScale = theScale;
-            rig.AddForce(new Vector2(-RunSpeed * speed * Time.deltaTime, 0), ForceMode2D.Force);
             ani.SetBool("status", false);
             ani.SetBool("Jump", false);
             ani.SetBool("Run", true);
@@ -389,6 +479,29 @@ public class player : MonoBehaviour
         Physics2D.IgnoreLayerCollision(14,15,false);
         c.a = 1f;
         rend.material.color = c;
+    }
+    
+    void SwitchAnimation()
+    {
+        ani.SetBool("Idle", false);
+        if(ani.GetBool("Jump"))
+        {
+            if(rig.velocity.y < 0.0f)
+            {
+                ani.SetBool("Jump", false);
+                ani.SetBool("Fall", true);
+            }
+        }
+        else if(isFloor)
+        {
+            ani.SetBool("Fall", false);
+            ani.SetBool("Idle", true);
+        }
+    }
+
+    void CheckAirStatus()
+    {
+        isJumping = ani.GetBool("Jump");
     }
 }
 

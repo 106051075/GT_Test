@@ -1,0 +1,1085 @@
+fileFormatVersion: 2
+guid: a78b9f42cd4ce414c8fac000e36097c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6373417395701917947
+    second: lifeFlower~1_0
+  - first:
+      213: 6758467414199091983
+    second: lifeFlower~1_1
+  - first:
+      213: -4510126236759101144
+    second: lifeFlower~1_2
+  - first:
+      213: 7791794046518107160
+    second: lifeFlower~1_3
+  - first:
+      213: 7376243343073241170
+    second: lifeFlower~1_4
+  - first:
+      213: -1346026154418339709
+    second: lifeFlower~1_5
+  - first:
+      213: 8560260363901100849
+    second: lifeFlower~1_6
+  - first:
+      213: 4434793693397387128
+    second: lifeFlower~1_7
+  - first:
+      213: -3549781643450888842
+    second: lifeFlower~1_8
+  - first:
+      213: 8049002037923403359
+    second: lifeFlower~1_9
+  - first:
+      213: 5159708235115153203
+    second: lifeFlower~1_10
+  - first:
+      213: 1468606157564143859
+    second: lifeFlower~1_11
+  - first:
+      213: 5856949954884824419
+    second: lifeFlower~1_12
+  - first:
+      213: 3083110088851873616
+    second: lifeFlower~1_13
+  - first:
+      213: 7240190241344952524
+    second: lifeFlower~1_14
+  - first:
+      213: -5565114086430147922
+    second: lifeFlower~1_15
+  - first:
+      213: 2780870905505699296
+    second: lifeFlower~1_16
+  - first:
+      213: -522767585165806894
+    second: lifeFlower~1_17
+  - first:
+      213: 8382887617833395791
+    second: lifeFlower~1_18
+  - first:
+      213: -22837922136687777
+    second: lifeFlower~1_19
+  - first:
+      213: -2301604832121751389
+    second: lifeFlower~1_20
+  - first:
+      213: 5991571971774256226
+    second: lifeFlower~1_21
+  - first:
+      213: 577890284294239898
+    second: lifeFlower~1_22
+  - first:
+      213: 8094925762543467996
+    second: lifeFlower~1_23
+  - first:
+      213: -774045692254057604
+    second: lifeFlower~1_24
+  - first:
+      213: -6868964541586337331
+    second: lifeFlower~1_25
+  - first:
+      213: -8447816187718977379
+    second: lifeFlower~1_26
+  - first:
+      213: -6204151272033195061
+    second: lifeFlower~1_27
+  - first:
+      213: -6034527701248323338
+    second: lifeFlower~1_28
+  - first:
+      213: 4011999919473685936
+    second: lifeFlower~1_29
+  - first:
+      213: -7062092216992247384
+    second: lifeFlower~1_0
+  - first:
+      213: -3350647850660819618
+    second: lifeFlower~1_1
+  - first:
+      213: 1692914430436936412
+    second: lifeFlower~1_2
+  - first:
+      213: 5663265962224707389
+    second: lifeFlower~1_3
+  - first:
+      213: -1138642947848388314
+    second: lifeFlower~1_4
+  - first:
+      213: 3455001273467885607
+    second: lifeFlower~1_5
+  - first:
+      213: -5871176237830564090
+    second: lifeFlower~1_6
+  - first:
+      213: -1444898690160725251
+    second: lifeFlower~1_7
+  - first:
+      213: -4075954060075062690
+    second: lifeFlower~1_8
+  - first:
+      213: -2119457390260770148
+    second: lifeFlower~1_9
+  - first:
+      213: -7078659803330477767
+    second: lifeFlower~1_10
+  - first:
+      213: -1479634157134267983
+    second: lifeFlower~1_11
+  - first:
+      213: -5286114277635479953
+    second: lifeFlower~1_12
+  - first:
+      213: -9175279768485669919
+    second: lifeFlower~1_13
+  - first:
+      213: -5461539112953075830
+    second: lifeFlower~1_14
+  - first:
+      213: -5177802903888676885
+    second: lifeFlower~1_15
+  - first:
+      213: 6832099313542551571
+    second: lifeFlower~1_16
+  - first:
+      213: -1349503457488551578
+    second: lifeFlower~1_17
+  - first:
+      213: 5776527782463332702
+    second: lifeFlower~1_18
+  - first:
+      213: 8437318726319012054
+    second: lifeFlower~1_19
+  - first:
+      213: 5413537969885420776
+    second: lifeFlower~1_20
+  - first:
+      213: 6747048251235067567
+    second: lifeFlower~1_21
+  - first:
+      213: -6011004946625002602
+    second: lifeFlower~1_22
+  - first:
+      213: 4243949735032403646
+    second: lifeFlower~1_23
+  - first:
+      213: 110081559589590971
+    second: lifeFlower~1_24
+  - first:
+      213: 271002170137226304
+    second: lifeFlower~1_30
+  - first:
+      213: -8335812341620694535
+    second: lifeFlower~1_31
+  - first:
+      213: -8419123142769867452
+    second: lifeFlower~1_32
+  - first:
+      213: 5515527251443068931
+    second: lifeFlower~1_33
+  - first:
+      213: 7584514466486359093
+    second: lifeFlower~1_34
+  - first:
+      213: 6969834255931264852
+    second: lifeFlower~1_25
+  - first:
+      213: -1051774575866304516
+    second: lifeFlower~1_26
+  - first:
+      213: -2617052607916961898
+    second: lifeFlower~1_27
+  - first:
+      213: 3543751357536401222
+    second: lifeFlower~1_28
+  - first:
+      213: -8729132487523982861
+    second: lifeFlower~1_29
+  - first:
+      213: -5053197473692258432
+    second: lifeFlower~1_30
+  - first:
+      213: -342763948038025183
+    second: lifeFlower~1_31
+  - first:
+      213: 6180874648507359726
+    second: lifeFlower~1_32
+  - first:
+      213: -2868811407992728150
+    second: lifeFlower~1_33
+  - first:
+      213: 1425688127060125483
+    second: lifeFlower~1_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lifeFlower~1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1757
+        width: 188
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a150239b886efd90800000000000000
+      internalID: -7062092216992247384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1757
+        width: 176
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d8fe5488b1081d0800000000000000
+      internalID: -3350647850660819618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_2
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1757
+        width: 177
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda835d74b07e7710800000000000000
+      internalID: 1692914430436936412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_3
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1757
+        width: 175
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37e6fa2366f79e40800000000000000
+      internalID: 5663265962224707389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_4
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1757
+        width: 175
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6214e7f854ab230f0800000000000000
+      internalID: -1138642947848388314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1410
+        width: 188
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72853935a51a2ff20800000000000000
+      internalID: 3455001273467885607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_6
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1410
+        width: 176
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607156a8154658ea0800000000000000
+      internalID: -5871176237830564090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_7
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1410
+        width: 177
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2fa84fb40b2fbe0800000000000000
+      internalID: -1444898690160725251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_8
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1410
+        width: 175
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a2a60b06d4f67c0800000000000000
+      internalID: -4075954060075062690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_9
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1410
+        width: 175
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a2ee0abbc2692e0800000000000000
+      internalID: -2119457390260770148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1062
+        width: 177
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93186a8c96c83cd90800000000000000
+      internalID: -7078659803330477767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1062
+        width: 176
+        height: 281
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b93a72d298477be0800000000000000
+      internalID: -1479634157134267983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_12
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1062
+        width: 177
+        height: 281
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66aa6f4213f3a6b0800000000000000
+      internalID: -5286114277635479953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_13
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1062
+        width: 175
+        height: 280
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3559cc9abdaa080800000000000000
+      internalID: -9175279768485669919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_14
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1062
+        width: 175
+        height: 280
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87a78dfc17b434b0800000000000000
+      internalID: -5461539112953075830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 715
+        width: 176
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7babc21bfb428b0800000000000000
+      internalID: -5177802903888676885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 715
+        width: 176
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318d4eda02e70de50800000000000000
+      internalID: 6832099313542551571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_17
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 715
+        width: 176
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661cb3161c9954de0800000000000000
+      internalID: -1349503457488551578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_18
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 715
+        width: 176
+        height: 261
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51e6eca9695a2050800000000000000
+      internalID: 5776527782463332702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_19
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 715
+        width: 178
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8fef2cda0671570800000000000000
+      internalID: 8437318726319012054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 368
+        width: 178
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec1c19f910c02b40800000000000000
+      internalID: 5413537969885420776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_21
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 368
+        width: 178
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6694913a452ad50800000000000000
+      internalID: 6747048251235067567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_22
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 368
+        width: 176
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6930d4549de949ca0800000000000000
+      internalID: -6011004946625002602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_23
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 368
+        width: 177
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb638317cc985ea30800000000000000
+      internalID: 4243949735032403646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_24
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 368
+        width: 177
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb798af5896178100800000000000000
+      internalID: 110081559589590971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_25
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 233
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fc128f353d9b060800000000000000
+      internalID: 6969834255931264852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 233
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7a3b588985761f0800000000000000
+      internalID: -1051774575866304516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_27
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 233
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f8992d48c5eabd0800000000000000
+      internalID: -2617052607916961898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_28
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 233
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647f346851fed2130800000000000000
+      internalID: 3543751357536401222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_29
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 233
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1afc36044ebd680800000000000000
+      internalID: -8729132487523982861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 174
+        height: 209
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08feba0bbaf6fd9b0800000000000000
+      internalID: -5053197473692258432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_31
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 20
+        width: 175
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120126b51024e3bf0800000000000000
+      internalID: -342763948038025183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_32
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 20
+        width: 177
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1af71ceb0e6c550800000000000000
+      internalID: 6180874648507359726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_33
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 20
+        width: 176
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5510b593fef28d0800000000000000
+      internalID: -2868811407992728150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeFlower~1_34
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 20
+        width: 191
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2729e54ccf09c310800000000000000
+      internalID: 1425688127060125483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

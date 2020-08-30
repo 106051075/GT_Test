@@ -15,6 +15,9 @@ TagManager:
   - energy
   - ParticleEnergy
   - vine
+  - PlayerRopeTouch
+  - lifeFlower
+  - crystal
   layers:
   - Default
   - TransparentFX
@@ -35,9 +38,9 @@ TagManager:
   - Effects
   - crystal
   - vine
-  - 
-  - 
-  - 
+  - lifeFlower
+  - ladder
+  - OnWayPlatform
   - 
   - 
   - 
@@ -51,4 +54,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ladder
+    uniqueID: 1229181057
+    locked: 0
+  - name: floor
+    uniqueID: 1494943339
+    locked: 0
+  - name: player
+    uniqueID: 437582567
     locked: 0
